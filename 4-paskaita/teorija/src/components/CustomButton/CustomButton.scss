@@ -1,0 +1,33 @@
+.button {
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+.contained {
+  background-color: #8bc34a;
+  border: 1px solid #8bc34a;
+  color: white;
+}
+
+.contained:hover {
+  background-color: #618833;
+  border: 1px solid #618833;
+}
+
+.outlined {
+  background-color: white;
+  color:#618833;
+  border: 1px solid #8bc34a;
+}
+
+.outlined:hover, .text:hover {
+  background-color: #d6ffa6;
+}
+
+.text {
+  background-color: transparent;
+  color:#618833;
+}

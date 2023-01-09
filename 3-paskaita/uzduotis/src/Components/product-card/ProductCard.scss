@@ -1,0 +1,21 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .type {
+    color: rgb(165, 165, 165);
+  }
+
+  .name {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+}
