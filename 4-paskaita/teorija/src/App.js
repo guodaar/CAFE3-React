@@ -2,6 +2,9 @@ import "./App.scss";
 import CustomButton from "./components/CustomButton/CustomButton";
 import Button from "./components/Button";
 import Greeting from "./components/Greeting";
+import MenuList from "./components/MenuList/MenuList";
+import MoodChecker from "./components/MoodCheker";
+import MoodCheckerMap from "./components/MoodCheckerMap";
 import { useState } from "react";
 
 function App() {
@@ -21,6 +24,22 @@ function App() {
     {
       variant: "contained",
       text: "help contained",
+    },
+  ];
+
+  const [activeMenu, setActiveMenu] = useState("single");
+  const menuButtons = [
+    {
+      label: "Show single menu",
+      value: "single",
+    },
+    {
+      label: "Show couples menu",
+      value: "couple",
+    },
+    {
+      label: "Show family menu",
+      value: "family",
     },
   ];
 
@@ -56,11 +75,29 @@ function App() {
         ))}
       </ul>
       <br />
+
       {buttons.map((button, index) => (
         <CustomButton key={index} variant={button.variant}>
           {button.text}
         </CustomButton>
       ))}
+
+      <br />
+      {menuButtons.map((button) => (
+        <CustomButton
+          key={button.value}
+          variant={activeMenu === button.value ? "contained" : "outlined"}
+          onClick={() => setActiveMenu(button.value)}
+        >
+          {button.label}
+        </CustomButton>
+      ))}
+
+      <MenuList customerType={activeMenu} />
+
+      <br />
+      <MoodChecker />
+      <MoodCheckerMap />
     </div>
   );
 }

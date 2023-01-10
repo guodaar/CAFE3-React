@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Open+Sans&display=swap');
+
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+  gap: 30px;
+  max-width: 900px;
+  margin: 10px 50px 50px;
+
+  .image-container {
+    display: flex;
+    flex: 1.7;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    margin: 10px;
+
+    h2 {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 36px;
+      font-family: 'Barlow Semi Condensed';
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+    .price {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .text-wrap {
+        white-space: pre-wrap;
+      }
+    }
+
+    .green-text {
+      color: rgb(148, 204, 70);
+    }
+
+    .buttons-wrapper {
+      display: flex;
+      gap: 10px;
+      
+      .item-count {
+        border: 0.3px solid rgb(207, 207, 207);
+        border-radius: 2px;
+        display: flex;
+
+        span {
+          padding: 2px 10px 0;
+          border-left: 0.3px solid  rgb(207, 207, 207);
+          border-right: 0.3px solid  rgb(207, 207, 207);
+        }
+
+        button {
+          font-family: 'Open Sans';
+          border: none;
+          background-color: transparent;
+          padding: 0 10px;
+        }
+      }
+    }
+
+    .category {
+      font-size: 14px;
+    }
+  }
+}
