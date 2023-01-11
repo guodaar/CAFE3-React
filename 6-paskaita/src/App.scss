@@ -1,0 +1,20 @@
+.App {
+  padding: 60px;
+
+  form {
+    padding-top: 50px;
+
+    input {
+      margin-top: 10px;
+    }
+  }
+
+  .todo-title {
+    font-size: 2rem;
+  }
+
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+  }
+}
