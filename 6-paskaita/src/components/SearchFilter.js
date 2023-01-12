@@ -12,9 +12,6 @@ const SearchFilter = () => {
       return item.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
     });
     setFilteredItems(newList);
-    // setFilteredItems((prevTodos) => prevTodos.filter((item) => {
-    //   return item.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
-    // }));
   };
 
   return (
