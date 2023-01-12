@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.scss";
-import ShoppingListApp from "./ShoppingListApp";
-import TodoApp from "./TodoApp";
+import SearchFilter from "./components/SearchFilter";
+import ShoppingListApp from "./components/ShoppingListApp";
+import TodoApp from "./components/TodoApp";
 
 const App = () => {
   return (
     <div className="App">
       <TodoApp />
       <ShoppingListApp />
+      <SearchFilter />
     </div>
   );
 };
