@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap");
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App h1 {
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 2.3rem;
+  margin: 40px;
+}
+.App .product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 50px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin: 0 100px;
+}/*# sourceMappingURL=App.css.map */

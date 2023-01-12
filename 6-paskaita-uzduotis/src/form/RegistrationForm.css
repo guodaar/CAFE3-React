@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+.main-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  width: 600px;
+  font-family: "Roboto Condensed";
+  font-size: 0.9rem;
+}
+.main-wrapper h1 {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0;
+  padding: 15px;
+}
+.main-wrapper .registration-form {
+  padding: 20px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-wrapper .registration-form button {
+  background-color: rgb(255, 98, 98);
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  padding: 10px 30px;
+}
+.main-wrapper .registration-form legend {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+}
+.main-wrapper .registration-form .name, .main-wrapper .registration-form .company, .main-wrapper .registration-form .email, .main-wrapper .registration-form .phone, .main-wrapper .registration-form .subject {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.main-wrapper .registration-form .name label, .main-wrapper .registration-form .company label, .main-wrapper .registration-form .email label, .main-wrapper .registration-form .phone label, .main-wrapper .registration-form .subject label {
+  width: 90px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+}
+.main-wrapper .registration-form .name .first-name, .main-wrapper .registration-form .name .last-name, .main-wrapper .registration-form .name .area-code, .main-wrapper .registration-form .name .phone-number, .main-wrapper .registration-form .company .first-name, .main-wrapper .registration-form .company .last-name, .main-wrapper .registration-form .company .area-code, .main-wrapper .registration-form .company .phone-number, .main-wrapper .registration-form .email .first-name, .main-wrapper .registration-form .email .last-name, .main-wrapper .registration-form .email .area-code, .main-wrapper .registration-form .email .phone-number, .main-wrapper .registration-form .phone .first-name, .main-wrapper .registration-form .phone .last-name, .main-wrapper .registration-form .phone .area-code, .main-wrapper .registration-form .phone .phone-number, .main-wrapper .registration-form .subject .first-name, .main-wrapper .registration-form .subject .last-name, .main-wrapper .registration-form .subject .area-code, .main-wrapper .registration-form .subject .phone-number {
+  display: flex;
+  flex-direction: column;
+}
+.main-wrapper .registration-form .name .input-wrap, .main-wrapper .registration-form .company .input-wrap, .main-wrapper .registration-form .email .input-wrap, .main-wrapper .registration-form .phone .input-wrap, .main-wrapper .registration-form .subject .input-wrap {
+  flex-grow: 1;
+}
+.main-wrapper .registration-form .name .input-wrap small, .main-wrapper .registration-form .company .input-wrap small, .main-wrapper .registration-form .email .input-wrap small, .main-wrapper .registration-form .phone .input-wrap small, .main-wrapper .registration-form .subject .input-wrap small {
+  padding-top: 5px;
+  color: rgb(145, 145, 145);
+}
+.main-wrapper .registration-form .name input, .main-wrapper .registration-form .name select, .main-wrapper .registration-form .company input, .main-wrapper .registration-form .company select, .main-wrapper .registration-form .email input, .main-wrapper .registration-form .email select, .main-wrapper .registration-form .phone input, .main-wrapper .registration-form .phone select, .main-wrapper .registration-form .subject input, .main-wrapper .registration-form .subject select {
+  flex-grow: 1;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  padding-left: 10px;
+}
+.main-wrapper .registration-form .radio {
+  margin: 30px 0;
+}
+.main-wrapper .registration-form .radio .radio-buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.main-wrapper .registration-form .radio .radio-buttons div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.main-wrapper .registration-form .radio .radio-buttons div input {
+  accent-color: green;
+  height: 1rem;
+  width: 1rem;
+}/*# sourceMappingURL=RegistrationForm.css.map */

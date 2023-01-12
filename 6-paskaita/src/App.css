@@ -1,0 +1,16 @@
+.App {
+  padding: 60px;
+}
+.App form {
+  padding-top: 50px;
+}
+.App form input {
+  margin-top: 10px;
+}
+.App .todo-title {
+  font-size: 2rem;
+}
+.App .delete-btn {
+  color: red;
+  cursor: pointer;
+}/*# sourceMappingURL=App.css.map */

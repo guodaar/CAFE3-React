@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Open+Sans&display=swap");
+.button {
+  background-color: rgb(50, 165, 218);
+  font-family: "Open Sans";
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+
+.button:hover {
+  background-color: rgb(84, 193, 243);
+  cursor: pointer;
+}/*# sourceMappingURL=Button.css.map */

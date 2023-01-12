@@ -1,0 +1,6 @@
+.App {
+  background: rgb(0, 194, 255);
+  background: linear-gradient(42deg, rgb(0, 194, 255) 0%, rgb(29, 109, 253) 50%, rgb(168, 43, 252) 94%);
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */
