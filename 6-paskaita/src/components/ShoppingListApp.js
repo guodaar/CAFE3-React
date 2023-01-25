@@ -13,7 +13,7 @@ const ShoppingListApp = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Sopping list</h2>
+      <h2>Shopping list</h2>
       <div>
         <label>Pavadinimas: </label>
         <input
